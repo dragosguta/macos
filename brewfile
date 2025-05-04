@@ -1,0 +1,37 @@
+cask_args appdir: "~/Applications"
+
+# Development Tools
+cask "visual-studio-code"          # Code editor
+cask "cursor"                      # AI code editor
+cask "iterm2"                      # Terminal emulator
+
+# CLI Tools
+brew "bat"                         # Cat clone with syntax highlighting
+brew "exa"                         # Modern replacement for ls
+brew "curl"                        # Transfer data with URL syntax
+brew "fzf"                         # Command-line fuzzy finder
+brew "pnpm"                        # Fast, disk space efficient package manager
+brew "starship"                    # Cross-shell prompt
+brew "zoxide"                      # Smarter cd command
+brew "zsh-syntax-highlighting"     # Syntax highlighting for zsh
+brew "zsh-autosuggestions"         # Autosuggestions for zsh
+brew "zsh-autocomplete"            # Autocomplete for zsh
+
+# Utilities
+cask "rectangle"                   # Window management app
+cask "monitorcontrol"              # Control external display brightness/volume
+# cask "mac-mouse-fix"             # Improve mouse scrolling/buttons
+
+# Browsers
+# cask "google-chrome"             # Web browser
+
+# Media
+# cask "spotify"                   # Music streaming service
+
+# Fonts
+tap 'homebrew/cask-fonts'          # Tap for font casks
+cask 'font-fira-code-nerd-font'    # Fira Code Nerd Font
+cask 'font-hack-nerd-font'         # Hack Nerd Font
+cask 'font-inconsolata-nerd-font'  # Inconsolata Nerd Font
+cask 'font-hasklug-nerd-font'      # Hasklug Nerd Font
+cask 'font-meslo-lg-nerd-font'     # Meslo LG Nerd Font
