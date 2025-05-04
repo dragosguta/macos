@@ -178,9 +178,6 @@
 # Set the default editor to vim
   export EDITOR='vim'
 
-# Set starship theme config
-  export STARSHIP_CONFIG=$HOME/.starship/config.toml
-
 # Install to USER instead of root
   export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
 
