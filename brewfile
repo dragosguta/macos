@@ -16,6 +16,7 @@ brew "zoxide"                      # Smarter cd command
 brew "zsh-syntax-highlighting"     # Syntax highlighting for zsh
 brew "zsh-autosuggestions"         # Autosuggestions for zsh
 brew "zsh-autocomplete"            # Autocomplete for zsh
+brew "starship"                    # Cross-shell prompt
 
 # Utilities
 cask "rectangle"                   # Window management app
