@@ -46,27 +46,6 @@
     mkdir -p "$@" && mycd "$_";
   }
 
-# Run docker inspect and view environment of a container
-  function di() {
-    name=${1}
-    if [ -z "$1" ]; then
-      echo "Must supply name argument"
-    else
-      docker inspect `docker ps -q --filter name=$name` | jq ".[0].Config.Env"
-    fi
-  }
-
-# Tail the logs of a docker container
-  function dl() {
-    name=${1}
-    number=${2:-all}
-    if [ -z "$1" ]; then
-      echo "Must supply name argument"
-    else
-      docker logs -f `docker ps -q --filter name=$name` --tail $number
-    fi
-  }
-
 # Display useful host related information
   function ii() {
     echo -e "\nYou are logged on ${RED}$HOST"
@@ -179,13 +158,13 @@
   export EDITOR='vim'
 
 # Install to USER instead of root
-  export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
+  export HOMEBREW_CASK_OPTS="--appdir=$HOME/Applications"
 
 # Docker
   export DOCKER_HOST="$(docker context inspect --format '{{ .Endpoints.docker.Host }}')"
 
 # Enable Homebrew [https://docs.brew.sh/Installation]
-  eval "$(/opt/homebrew/bin/brew shellenv)"
+  eval "$($HOME/.homebrew/bin/brew shellenv)"
 
 # Enable starship theme [https://github.com/starship/starship]
   eval "$(starship init zsh)"

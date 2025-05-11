@@ -1,0 +1,73 @@
+{
+    // Window and Workbench Settings
+    "workbench.sideBar.location": "right",                   // Move sidebar to right side
+    "window.openFilesInNewWindow": true,                     // Open files in new window
+    "window.zoomLevel": 0,                                   // Default zoom level
+    "workbench.editor.enablePreview": false,                 // Disable preview mode for editors
+    "workbench.colorTheme": "Ayu Mirage",                    // Set color theme
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+
+    // Editor Appearance
+    "editor.fontFamily": "Hasklug Nerd Font",                // Set font family
+    "editor.fontLigatures": true,                            // Enable font ligatures
+    "editor.fontSize": 16,                                   // Set font size
+    "editor.cursorStyle": "line",                            // Use block cursor
+    "editor.minimap.enabled": false,                         // Disable minimap
+    "editor.guides.indentation": false,                      // Disable indentation guides
+
+    // Scrollbar Settings
+    "editor.scrollbar.vertical": "visible",                  // Show vertical scrollbar
+    "editor.scrollbar.horizontal": "visible",                // Show horizontal scrollbar
+    "editor.scrollbar.verticalScrollbarSize": 10,            // Set vertical scrollbar width
+    "editor.scrollbar.horizontalScrollbarSize": 10,          // Set horizontal scrollbar width
+
+    // Editor Behavior
+    "editor.dragAndDrop": false,                             // Disable drag and drop
+    "editor.autoIndent": "keep",                             // Keep indentation level
+    "editor.autoClosingBrackets": "never",                   // Disable auto-closing brackets
+    "editor.autoClosingQuotes": "never",                     // Disable auto-closing quotes
+    "editor.autoSurround": "never",                          // Disable auto-surrounding selections
+    "editor.matchBrackets": "near",                          // Only highlight brackets when cursor is near them
+
+    // Suggestions and Auto-complete
+    "editor.quickSuggestions": {                             // Disable all quick suggestions
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.snippetSuggestions": "none",                     // Disable snippet suggestions
+    "editor.suggestOnTriggerCharacters": false,              // Disable suggestions on trigger characters
+    "editor.acceptSuggestionOnCommitCharacter": false,       // Disable accepting suggestions on commit
+    "editor.quickSuggestionsDelay": 1000000000,              // Effectively disable quick suggestions
+    "editor.suggest.showClasses": false,                     // Hide class suggestions
+    "editor.suggest.showConstants": false,                   // Hide constant suggestions
+    "editor.suggest.showConstructors": false,                // Hide constructor suggestions
+    "editor.suggest.showEnumMembers": false,                 // Hide enum member suggestions
+    "editor.suggest.showEnums": false,                       // Hide enum suggestions
+    "editor.suggest.showEvents": false,                      // Hide event suggestions
+    "editor.suggest.showFields": false,                      // Hide field suggestions
+
+    // Formatting
+    "editor.formatOnPaste": false,                           // Disable format on paste
+    "editor.formatOnType": false,                            // Disable format on type
+    "files.trimTrailingWhitespace": true,                    // Remove trailing whitespace
+
+    // HTML/JavaScript Settings
+    "html.autoClosingTags": false,                           // Disable auto-closing HTML tags
+    "javascript.autoClosingTags": false,                     // Disable auto-closing JSX tags
+
+    // UI Elements
+    "editor.occurrencesHighlight": "off",                    // Disable occurrence highlighting
+    "editor.lightbulb.enabled": "off",                       // Disable lightbulb suggestions
+    "editor.parameterHints.enabled": false,                  // Disable parameter hints
+    "editor.hover.enabled": false,                           // Disable hover tooltips
+    "scm.diffDecorations": "none",                           // Disable diff decorations
+
+    // Extensions and Telemetry
+    "extensions.ignoreRecommendations": true,                // Disable extension recommendations
+    "telemetry.enableTelemetry": false,                      // Disable telemetry
+    "telemetry.enableCrashReporter": false,                  // Disable crash reporting
+
+    // Search Settings
+    "search.useGlobalIgnoreFiles": true                      // Use global ignore files for search
+}

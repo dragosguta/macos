@@ -7,7 +7,7 @@ cask "iterm2"                      # Terminal emulator
 
 # CLI Tools
 brew "bat"                         # Cat clone with syntax highlighting
-brew "exa"                         # Modern replacement for ls
+brew "eza"                         # Modern replacement for ls
 brew "curl"                        # Transfer data with URL syntax
 brew "fzf"                         # Command-line fuzzy finder
 brew "pnpm"                        # Fast, disk space efficient package manager
@@ -17,6 +17,7 @@ brew "zsh-syntax-highlighting"     # Syntax highlighting for zsh
 brew "zsh-autosuggestions"         # Autosuggestions for zsh
 brew "zsh-autocomplete"            # Autocomplete for zsh
 brew "starship"                    # Cross-shell prompt
+brew "fnm"                         # Fast node version manager
 
 # Utilities
 cask "rectangle"                   # Window management app
@@ -30,7 +31,6 @@ cask "monitorcontrol"              # Control external display brightness/volume
 # cask "spotify"                   # Music streaming service
 
 # Fonts
-tap 'homebrew/cask-fonts'          # Tap for font casks
 cask 'font-fira-code-nerd-font'    # Fira Code Nerd Font
 cask 'font-hack-nerd-font'         # Hack Nerd Font
 cask 'font-inconsolata-nerd-font'  # Inconsolata Nerd Font
